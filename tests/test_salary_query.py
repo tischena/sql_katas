@@ -1,6 +1,6 @@
 import sqlite3
 import pytest
-from src.salary_query import get_salary_proc
+from src.main import get_salary_proc
 
 @pytest.fixture
 def test_get_salary_proc_db(tmp_path):
